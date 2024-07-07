@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-image: url(./images/Banner\ Image.png);
+    background-position:center;
+    background-size: cover;
+    height: 480px;
+    margin: 20px 40px 0px 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    border-radius: 10px;
+    font-family: "Merriweather", serif;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+    color: #fff;
+}
+.banner-content h4{
+    font-size: 30px;
+}
+.banner-content h2{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+/* Banner section end */
+
+/* Discount section start */
+.discount{
+    margin:60px 50px 0px 50px;
+    text-align: center;
+    align-items: center;
+}
+.discount-text h2{
+    font-size: 50px;
+    color: red;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.discount-text p{
+    font-size: 16px;
+    color: red;
+    padding-bottom: 5px;
+}
+.discount-text h3{
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: #070211;
+}
+.discount-picture img{
+    width: 500px;
+    height: 400px;
+}
+
+/* Night-party-section start */
+.night-party{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 40px 0px 40px;
+    background-image: url(./images/Vectorrr.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 450px;
+    padding: 40px 50px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    border-radius: 10px;
+    gap: 20px;
+}
+.party-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-left: 20px; */
+}
+.party-text h2{
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 15px 0px;
+}
+.party-text p{
+    color: lightgrey;
+    padding-bottom: 20px;
+}
+.party-text h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.party-img img{
+    width: 300px;
+    height: 390px;
+}
+  
