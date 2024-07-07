@@ -75,6 +75,7 @@
     background-blend-mode: overlay;
     border-radius: 10px;
     gap: 20px;
+    font-family: "Merriweather", serif;
 }
 .party-text{
     display: flex;
@@ -90,16 +91,35 @@
     padding: 15px 0px;
 }
 .party-text p{
-    color: lightgrey;
+    color: rgba(255, 255, 255, 0.8);
     padding-bottom: 20px;
 }
 .party-text h4{
     color: #fff;
     font-size: 20px;
     font-weight: 500;
+    letter-spacing: 1px;
 }
 .party-img img{
     width: 300px;
     height: 390px;
+}
+.place-section{
+    margin: 100px 40px 0px 40px;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%); 
+    align-items: center; 
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+}
+ .place h3{
+    padding-top: 10px;
+ }  
+.place-section span{
+    color: red;
+    font-weight: 600;
 }
   
