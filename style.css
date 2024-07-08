@@ -32,6 +32,11 @@
 
 /* Banner section end */
 
+
+
+
+
+
 /* Discount section start */
 .discount{
     margin:60px 50px 0px 50px;
@@ -58,6 +63,10 @@
     width: 500px;
     height: 400px;
 }
+
+
+
+
 
 /* Night-party-section start */
 .night-party{
@@ -104,6 +113,13 @@
     width: 300px;
     height: 390px;
 }
+
+
+
+
+
+
+/* Place secton start */
 .place-section{
     margin: 100px 40px 0px 40px;
     height: 300px;
@@ -114,6 +130,7 @@
     text-align: center; 
     display: flex;
     justify-content: center;
+    font-family: "Inter", sans-serif;
 }
  .place h3{
     padding-top: 10px;
@@ -122,4 +139,135 @@
     color: red;
     font-weight: 600;
 }
-  
+
+
+
+
+
+
+
+/* Offer section strat */
+  .best-offer{
+    margin: 60px 40px 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height:350px;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .part1 .new{
+    color: red;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+  }
+  .part1 h3{
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: 900;
+
+  }
+  .part1 p{
+    color: #07021199;
+    line-height: 20px;
+    width: 300px;
+  }
+  .part2{
+    width: 340px;
+    height: 270px;
+    border: 6px solid red;
+    border-radius: 50%;
+    padding: 15px;
+  }
+  .part2 img{
+    width: 100%;
+    height: 100%;
+  }
+  .part3 {
+    padding-left: 80px;
+  }
+  .part3 h2{
+    color: red;
+    font-size: 35px;
+    font-weight: 900;
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }
+  .part3 p{
+    color: #07021199;
+
+}
+.part3 img{
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(180.00deg, rgb(248, 246, 251) 12.887%,rgb(239, 220, 251) 175.654%);
+}
+
+
+
+
+
+
+
+/* Holiady section start */
+
+.holiday{
+    margin: 60px 40px 20px 40px;
+    height: 850px; 
+    position: relative; 
+}
+.heading-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+.heading-section h5{
+    color: rgb(7, 2, 17);
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0%;
+}
+.heading-section h2{
+    font-family: "Merriweather", serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+.heading-section h2 span{
+    color: red;
+}
+.heading-section p{
+    color: rgba(7, 2, 17, 0.6);
+    width: 500px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.solid-color{
+    width: 100%;
+    height: 180px;
+    background: red;
+    position: absolute;
+    top: 79%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.gift-boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.gift-box1 img{
+    margin-top: 120px;
+    height: 500px;
+    width: 600px;
+    position: relative;
+    z-index: 1;
+}
+.gift-box2 img{
+    margin-top: 80px;
+}
