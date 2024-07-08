@@ -218,6 +218,8 @@
     margin: 60px 40px 20px 40px;
     height: 850px; 
     position: relative; 
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%); 
+    border-radius: 10px;
 }
 .heading-section{
     display: flex;
@@ -271,3 +273,39 @@
 .gift-box2 img{
     margin-top: 80px;
 }
+
+
+/* Gallary section start */
+
+.gallary{
+    margin: 100px 40px 30px 40px;
+}
+.gallary .gallary-text h4{
+    font-size: 13px;
+    font-weight: bold;
+    color: red;
+    font-family: "Inter", sans-serif;
+}
+.gallary .gallary-text h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Merriweather", serif;
+}
+.gallary .gallary-text p{
+    font-family: "Inter", sans-serif;
+    color: #070211;
+    padding-bottom: 40px;
+}
+.gallary-images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.item img{
+    width: 300px;
+    height: 300px;
+
+}
+
+
+    
